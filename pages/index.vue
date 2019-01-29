@@ -2,7 +2,7 @@
   <section>
     <div>
       <logo/>
-      <h1 class="title">NUXT</h1>
+      <h1 class="title">Welcome to Orbit</h1>
       <h2 class="subtitle">
         Starter for CodeSandBox
       </h2>
@@ -22,6 +22,7 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import IconLink from '~/components/IconLink.vue'
+import { OHeading } from 'orbit-ui/components/Heading';
 
 export default {
   components: {
